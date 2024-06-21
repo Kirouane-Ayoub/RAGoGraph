@@ -52,3 +52,4 @@
     ```sh
     streamlit run src/graph-rag/app.py
     ```
+  ![Screenshot from 2024-06-21 19-10-27](https://github.com/Kirouane-Ayoub/RAGoGraph/assets/99510125/f73b484c-45bb-4077-8fb2-6cc67ab08502)
