@@ -1,4 +1,5 @@
 import streamlit as st
+from agent import agent_chain
 
 st.set_page_config(page_title="Graph RAG Chatbot")
 st.header(":hand: Welcome To Graph RAG Chatbot ")
@@ -8,14 +9,9 @@ st.write(
 """
 )
 
-with st.sidebar:
-    temperature = st.sidebar.slider(
-        "Select your temperature value : ", min_value=0.1, max_value=1.0, value=0.5
-    )
-
 
 def run_qa(prompt):
-    return prompt
+    return agent_chain.run(prompt)
 
 
 if "messages" not in st.session_state.keys():
