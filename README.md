@@ -48,3 +48,7 @@
     ```sh
     python src/graph-creator/main.py data.txt gemini # or gpt4
     ```
+6. Run the streamlit app : 
+    ```sh
+    streamlit run src/graph-rag/app.py
+    ```
