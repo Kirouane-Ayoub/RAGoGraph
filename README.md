@@ -7,14 +7,15 @@
 ██   ██ ██   ██ ██    ██ ██    ██ ██    ██ ██   ██ ██   ██ ██      ██   ██ 
 ██   ██ ██   ██  ██████   ██████   ██████  ██   ██ ██   ██ ██      ██   ██ 
                                                                            
-                              Graph QA Chatbot                                             
+                              Graph QA Chatbot
+                              🦜🔗 langchain                                            
 ```
 
 **RAGoGraph** is a project designed to seamlessly convert text into a **knowledge graph** and leverage this structured data within a conversational agent. The project is divided into two main components. 
 
 The first component focuses on transforming given textual data into a knowledge graph and storing it in a **Neo4j database**. 
 
-The second component utilizes the **LangChain framework** to develop an intelligent **conversational agent**, which interacts with the knowledge graph stored in Neo4j. 
+The second component utilizes the **🦜🔗 LangChain framework** to develop an intelligent **conversational agent**, which interacts with the knowledge graph stored in Neo4j. 
 
 **Streamlit** is employed as the user interface library, providing an interactive and user-friendly front end. This setup allows for dynamic and insightful conversations, as the agent can query and retrieve information from the knowledge graph, enhancing the user's experience with rich, context-aware responses.
                                                                          
