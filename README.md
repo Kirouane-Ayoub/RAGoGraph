@@ -63,3 +63,17 @@ The second component utilizes the **🦜🔗 LangChain framework** to develop an
     streamlit run src/graph-rag/app.py
     ```
   ![Screenshot from 2024-06-21 19-10-27](https://github.com/Kirouane-Ayoub/RAGoGraph/assets/99510125/f73b484c-45bb-4077-8fb2-6cc67ab08502)
+
+## Integration with LangSmith
+
+You can integrate LangSmith for tracking your project by adding the following lines to your `.env` file:
+
+```
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
+LANGCHAIN_API_KEY="<your-api-key>"
+```
+
+### LangSmith
+
+LangSmith is an all-in-one developer platform for every step of the LLM-powered application lifecycle, whether you’re building with LangChain or not. It allows you to debug, collaborate, test, and monitor your LLM applications effectively.
